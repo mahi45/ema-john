@@ -1,11 +1,22 @@
-.shop-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    width: 90%;
-    margin: 0 auto;
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  width: 90%;
+  margin: 0 auto;
 }
-.products-container{
-    margin: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.products-container {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.btn-proced {
+  background-color: #ff9900;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 21px;
+  border-radius: 4px;
+  color: white;
+  align-items: center;
+  margin-top: 20px;
 }
